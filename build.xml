@@ -7,7 +7,7 @@
 </target>
 
 
-   <target name="create"depends="delete">
+   <target name="create" depends="delete">
       <mkdir dir="bin"/>
         <mkdir dir="lib"/>
    </target>
