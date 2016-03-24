@@ -4,6 +4,7 @@
 <target name="delete">
 <delete dir="bin"/>
 <delete dir="lib"/>
+</target>
 
 
    <target name="create"depends="delete">
