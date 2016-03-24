@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <project name="test" default="print1" basedir=".">
    <target name="delete">
-      <mkdir dir="bin"/>
-        <mkdir dir="lib"/>
+      <delete dir="bin"/>
+        <delete dir="lib"/>
    </target>
 
 <target name="print1">
